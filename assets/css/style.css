@@ -5,11 +5,11 @@
     margin: 0 auto;
 }
 
-.carousel__image {
+.carousel-image {
     width: 100%;
 }
 
-.carousel__track-container {
+.carousel-track-container {
     background-color: gainsboro;
     padding: 10px;
 }
