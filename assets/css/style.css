@@ -36,6 +36,8 @@ Carousel
 
 .carousel__nav {
     background: pink;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel__indicator {
