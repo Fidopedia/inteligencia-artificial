@@ -1,3 +1,7 @@
+/*--------------------
+Carousel
+----------------------*/
+
 .carousel {
     position: relative;
     height: 600px;
@@ -5,11 +9,22 @@
     margin: 0 auto;
 }
 
-.carousel-image {
+.carousel__image {
     width: 100%;
 }
 
-.carousel-track-container {
-    background-color: gainsboro;
+.carousel__track-container {
+    background-color: lightgreen;
     padding: 10px;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel__slide {
+    position: absolute;
+    
 }
