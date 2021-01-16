@@ -7,6 +7,12 @@
 
 /* controls */
 
-.carousel-control-prev-icon {
-    size: 400px;  
+.carousel-control-next-icon {
+    background-image: url("../img/noun_robotic_hand_2838670.svg");
 }
+
+.carousel-control-prev-icon {
+  background-image: url("../img/noun_robotic_hand_2838670.svg");
+}
+
+
