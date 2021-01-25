@@ -42,8 +42,9 @@ body {
 
 a {
   text-decoration: none;
-  color: #1b262c;
+  color: black;
 }
+
 
 /* intro section */
 
@@ -196,5 +197,3 @@ time {
     border-color: transparent #bbe1fa transparent transparent;
   }
 }
-
-/*  */
