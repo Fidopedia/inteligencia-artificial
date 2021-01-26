@@ -21,7 +21,7 @@ $(window).on('resize', function (){
 });
 
 $('.carousel').carousel({
-  interval: 4250,
+  interval: 3500,
   pause: "false"
 });
 

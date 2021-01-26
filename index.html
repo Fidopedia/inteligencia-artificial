@@ -11,28 +11,30 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="carousel-item">
-        <img class="d-block w-100" src="assets/img/carousel/header-ai-1.jpg" data-color="lightblue" alt="First Image">
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/img/carousel/header-ai-1.jpg" data-color="lightblue" alt="First Image">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/img/carousel/header-ai-2.jpg" data-color="firebrick" alt="Second Image">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/img/carousel/header-ai-3.jpg" data-color="violet" alt="Third Image">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="assets/img/carousel/header-ai-2.jpg" data-color="firebrick" alt="Second Image">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="assets/img/carousel/header-ai-3.jpg" data-color="violet" alt="Third Image">
-      </div>
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>  
+      </a>
     </div>
-    <!-- Controls -->
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>  
-    </a>
-  </div>
-  <!-- Button -->
+  </section>
   <!-- Info -->
   <section class="intro">
     <div class="container">
@@ -44,11 +46,10 @@
     <ul>
       <li>
         <div>
-          <time>1769</time> <a href="https://es.wikipedia.org/wiki/Wolfgang_von_Kempelen" target="_blank">Wolfgang von Kempelen<a> ingeniero austríaco, creó un autómata llamado 
-            El turco (que no era inteligencia artificial, pero nos muestra cómo el anhelo de construir máquinas inteligentes no es un concepto de nuestro tiempo) 
-            con el que visitó todas las cortes europeas retando al ajedrez a todo el que se atrevía a jugar contra él. Jugó contra Napoleón, contra Benjamin Franklin, 
-            contra maestros del ajedrez, y los venció. Años más tarde se descubrió que El Turco estaba manejado por un humano que se escondía en el interior de la 
-            mesa de juego.Unos espejos situados en los ojos del autómata le permitía ver el tablero, y gracias a unos ingeniosos mecanismos de relojería podía controlar 
+          <time>1769</time> <a href="https://es.wikipedia.org/wiki/Wolfgang_von_Kempelen" target="_blank">Wolfgang von Kempelen<a> ingeniero austríaco, 
+            creó un autómata llamado El Turco con el que visitó todas las cortes europeas retando al ajedrez a todo el que se atrevía a jugar contra él 
+            y venciendoles. Años más tarde se descubrió que El Turco estaba manejado por un humano que se escondía en el interior de la mesa de juego. 
+            Unos espejos situados en los ojos del autómata le permitía ver el tablero, y gracias a unos ingeniosos mecanismos de relojería podía controlar 
             la mano del autómata para mover las piezas por el tablero.
         </div>
       </li>
@@ -95,11 +96,86 @@
     </ul>
   </section>
 
-  <section>
-    <div>
-      El resto de la información.
+  <section class="sub_intro">
+    <div class="sub_container">
+      <h2>¿Qué es la inteligencia artificial?</h2>
     </div>
   </section>
+
+  <section class="information">
+    <div> <p>La inteligencia artificial (IA) hace posible que las máquinas aprendan de la experiencia, se ajusten a nuevas aportaciones y realicen tareas como 
+      seres humanos. La mayoría de los ejemplos de inteligencia artificial sobre los que oye hablar hoy día – desde computadoras que juegan ajedrez hasta 
+      automóviles de conducción autónoma – recurren mayormente al aprendizaje profundo y al procesamiento del lenguaje natural. Empleando estas tecnologías, 
+      las computadoras pueden ser entrenadas para realizar tareas específicas procesando grandes cantidades de datos y reconociendo patrones en los datos.</p>
+      <p>Actualmente, la inteligencia artificial (IA) es uno de los temas que más invita a la reflexión en el campo de la tecnología y los negocios. Este 
+        entusiasmo tiene fundamentos: vivimos en un mundo cada vez más conectado e inteligente. Hoy en día, se puede fabricar un coche, componer Jazz mediante 
+        un algoritmo o conectar su CRM a su bandeja de entrada para dar prioridad a los correos más importantes. La tecnología detrás de todos estos avances 
+        está relacionada con la Inteligencia artificial (IA).</p>
+    </div>
+  </section>
+
+  <section class="sub_intro">
+    <div class="sub_container">
+      <h2>Tipos de Inteligencia Artificial</h2>
+    </div>
+  </section>
+
+  <section class="information">
+    <div class="column">
+      <div class="column0" style="height: 476px;">
+        <div class="styledcontainer">
+          <div class="headcolumn"><b>Máquinas reactivas</b></div>
+          <div class="bodycolumn">
+            <p>Los tipos más básicos de sistemas de IA son puramente reactivos. No tienen la capacidad de formar recuerdos. Tampoco pueden utilizar experiencias pasadas en las que basar las decisiones actuales.</p>
+            <p>Deep Blue fue una supercomputadora creada por IBM. Fue capaz de vencer al ajedrez al gran maestro internacional Garry Kasparov. Ocurrió a fines de la década de 1990 y es el ejemplo perfecto de este tipo de máquina.</p>
+            <p>Puede identificar las piezas en un tablero de ajedrez y saber cómo se mueve cada una. Puede realizar predicciones sobre los mejores movimientos y elegir el mejor de todas las posibilidades.</p>
+            <p>Pero no tiene ningún concepto del pasado. Tampoco posee recuerdos de lo que ha sucedido antes. Aparte de una regla de ajedrez, Deep Blue ignora todo antes del momento presente. Todo lo que hace es enfocar las piezas del tablero en tiempo real y elegir entre los siguientes movimientos posibles.</p>
+          </div>
+        </div>
+      </div>
+      <div class="column1" style="height: 476px;">
+        <div class="styledcontainer">
+          <div class="headcolumn"><b>Memoria limitada</b></div>
+          <div class="bodycolumn">
+            <p>El Tipo II maneja máquinas que pueden mirar hacia el pasado. Los vehículos autónomos ya hacen algo parecido. Por ejemplo, observan la velocidad y dirección de otros automóviles. Para que funcionen así hay que identificar objetos específicos y monitorearlos a lo largo del tiempo.</p>
+            <p>Digamos que estas observaciones se agregan a las representaciones preprogramadas para la memoria de estos coches. Se incluyen marcas de carril, semáforos y otros elementos importantes, como curvas en la carretera.</p>
+            <p>También se añaden experiencias como cuando el automóvil decide en qué momento cambiar de carril para evitar interrumpir a otro conductor o ser embestido por un automóvil cercano.</p>
+            <p>Pero estas simples piezas de información sobre el pasado son solo transitorias. No se guardan como parte de la biblioteca de experiencias del automóvil. En estos tipos de inteligencia artificial, la máquina no puede compilar la experiencia durante años, como lo hace un humano.</p>
+          </div>
+        </div>
+      </div>
+      <div class="column2" style="height: 476px;">
+        <div class="styledcontainer">
+          <div class="headcolumn"><b>Teoría de la mente</b></div>
+          <div class="bodycolumn">
+            <p>Llegamos a un punto en el que nos acercamos más a los tipos de inteligencia artificial que deseamos en un futuro. Las máquinas de la siguiente clase son más avanzadas. No solo forman representaciones sobre el mundo, también sobre otros agentes o entidades.</p>
+            <p>En psicología, esto se denomina ‘teoría de la mente’. Implica la comprensión de que las personas, las criaturas y los objetos en el mundo pueden tener pensamientos y emociones que afectan a su propio comportamiento. Esto es crucial para la forma en que los humanos formamos sociedades, porque nos permite la interacción social.</p>
+            <p>Si las máquinas van a andar entre nosotros, deberán tener una comprensión sobre cómo pensamos y cómo sentimos. Además deberán llegar a saber qué esperamos y cómo queremos que nos traten. Tendrán que ajustar su comportamiento en consecuencia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="column3" style="height: 476px;">
+        <div class="styledcontainer">
+          <div class="headcolumn"><b>Autoconciencia</b></div>
+          <div class="bodycolumn">
+            <p>El paso final del desarrollo de la IA es construir sistemas que puedan formar representaciones sobre sí mismos. En última instancia, los investigadores de la IA tendrán que comprender no solo la conciencia, sino también construir máquinas que la tengan.</p>
+            <p>Los seres conscientes son conscientes de sí mismos, conocen sus estados internos y pueden predecir los sentimientos de los demás. Es probable que estemos lejos de crear máquinas que sean conscientes de sí mismas. Sin embargo, los esfuerzos se enfocan hacia la comprensión de la memoria, el aprendizaje y la capacidad de basar las decisiones en experiencias pasadas.</p>
+            <p>Este es un paso importante para entender la inteligencia humana por sí misma. Es crucial para diseñar o desarrollar máquinas que sean más excepcionales para clasificar lo que ven frente a ellas.</p>
+            <p>Los cuatro tipos de inteligencia artificial dan una idea sobre las intenciones que el hombre tiene acerca del futuro de la máquina. Puede que estemos muy lejos de al IA autoconsciente. No obstante, está claro que eso es lo que se persigue en última instancia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sub_intro">
+    <div class="sub_container">
+      <h2>¿Por qué es importante la Inteligencia Artificial?</h2>
+    </div>
+  </section>
+
+  <!-- "https://www.youtube.com/watch?v=UwsrzCVZAb8&list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc" -->
+
 
   <!-- JS -->
   <script src="assets/js/jquery.min.js"></script>

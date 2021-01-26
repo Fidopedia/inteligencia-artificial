@@ -33,7 +33,7 @@
 }
 
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  font: normal 20px/1.5 "Helvetica Neue", sans-serif;
   background: #1b262c;
   color: #bbe1fa;
   overflow-x: hidden;
@@ -58,12 +58,16 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  color: #0f4c75;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.6rem;
 }
 
+h2 {
+  font-size: 2.6rem;
+}
 
 /* timeline */
 
@@ -97,8 +101,12 @@ h1 {
   position: relative;
   bottom: 0;
   width: 400px;
-  padding: 15px;
+  padding: 20px;
   background: #3282b8;
+  border-radius: 10px;
+  border: 5px;
+  border-style: inset none none inset;
+  border-color: rgba(0,0,0,0.5);
 }
 
 .timeline ul li div::before {
@@ -132,10 +140,80 @@ h1 {
 
 time {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 8px;
 }
+
+/* sub intro */
+
+.sub_intro {
+  background: #3282b8;
+  padding: 60px 0;
+}
+
+.sub_container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #0f4c75;
+}
+
+/* definition */
+
+.information {
+  border-radius: 10px;
+  border: 5px;
+  border-style: inset none none inset;
+  border-color: rgba(0,0,0,0.5);
+  position: relative;
+  bottom: 0;
+  margin: 80px;
+  width: 400px 0;
+  padding: 25px;
+  background: #3282b8;
+  text-align: center;
+}
+
+/* column */
+
+.column {
+ display: table;
+}
+
+.headcolumn {
+  font-size: 1.6rem;
+  text-decoration-line: underline;
+}
+
+.bodycolumn {
+  padding: 10px;
+  text-align: left;
+}
+
+.column0 div {
+  
+}
+
+.column1 div {
+  
+}
+
+.column2 div {
+  
+}
+
+.column3 div {
+
+}
+
+.styledcontainer {
+  
+}
+
+/* video */
+
 
 
 /* effects */
@@ -168,7 +246,6 @@ time {
   opacity: 1;
 }
 
-
 /* general media queries */
 
 @media screen and (max-width: 900px) {
@@ -197,3 +274,4 @@ time {
     border-color: transparent #bbe1fa transparent transparent;
   }
 }
+
