@@ -37,7 +37,6 @@ body {
   background: #1b262c;
   color: #bbe1fa;
   overflow-x: hidden;
-  padding-bottom: 50px;
 }  
 
 a {
@@ -233,8 +232,20 @@ li.listcontainer::marker {
 }
 
 /* video */
+/* Aquí debería ir el CSS de los vídeos*/
 
+/* footer */
 
+footer {
+  background: #3282b8;
+  padding: 0;
+}
+
+footer p {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0;
+}
 
 /* effects */
 
