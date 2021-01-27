@@ -238,13 +238,44 @@ li.listcontainer::marker {
 
 footer {
   background: #3282b8;
-  padding: 0;
+  margin-bottom: 0;
 }
 
-footer p {
-  font-size: 1rem;
+#site-content {
+	min-height: 100%;
+	min-height: 100vh;
+	padding-top: 65px;
+	position: relative;
+  z-index: 1;
+
+	-webkit-box-shadow: #000 0 7px 35px 0;
+	-moz-box-shadow: #000 0 7px 35px 0;
+	box-shadow: #000 0 7px 35px 0;
+  
+}
+
+#site-footer {
   text-align: center;
   margin-bottom: 0;
+	padding: 25px 0;
+	font-size: 2.6rem;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#site-content {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#site-footer {
+  min-height: 20vw;
+  background-color: #3282b8;
+	background-size: cover;
+	background-position: center;
 }
 
 /* effects */
