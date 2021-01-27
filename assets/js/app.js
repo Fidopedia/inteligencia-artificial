@@ -66,7 +66,6 @@ $(document).ready(function() {
 	
 	// INITIATE THE FOOTER
   siteFooter();
-	// COULD BE SIMPLIFIED FOR THIS PEN BUT I WANT TO MAKE IT AS EASY TO PUT INTO YOUR SITE AS POSSIBLE
 	$(window).resize(function() {
 		siteFooter();
 	});
